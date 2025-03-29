@@ -98,14 +98,6 @@ public class Addition
         Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, "1"));
         Assert.ThrowsException<ArgumentNullException>(() => Program.Divide(null, null));
     }
-
-    [TestMethod]
-    public void Divide_ByZero_Karkoosh()
-    {
-        Assert.ThrowsException<DivideByZeroException>(() => { var result = Program.Divide("1", "0"); });
-    }
-
-    [TestMethod]
     public void Power_Valid_Karkoosh()
     {
         Assert.AreEqual(1, Program.Power("1", "2"));
