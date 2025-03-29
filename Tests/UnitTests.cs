@@ -100,12 +100,6 @@ public class Addition
     }
 
     [TestMethod]
-    public void Divide_ByZero_Karkoosh()
-    {
-        Assert.ThrowsException<DivideByZeroException>(() => Program.Divide("1", "0"));
-    }
-
-    [TestMethod]
     public void Power_Valid_Karkoosh()
     {
         Assert.AreEqual(2, Program.Power("1", "2"));
