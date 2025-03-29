@@ -1,4 +1,4 @@
-[![Run App <last name>, <first name>](https://github.com/MohammedUNL/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/MohammedUNL/GithubActions/actions/workflows/ci.yml)
+[![Run App <Karkoosh>, <Mohammed>](https://github.com/MohammedUNL/GithubActions/actions/workflows/ci.yml/badge.svg)](https://github.com/MohammedUNL/GithubActions/actions/workflows/ci.yml)
 # Do not submit a pull request to `kgerot/GithubActions` or `dteske/TraviCI`. Not following this instruction can ruin the lab for others, so pay attention.
 
 I receive around 60 pull requests every semester and have to manually delete each request and action run. Your actions will automatically fail if you open a pull request
